@@ -49,9 +49,9 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			props.put("mail.smtp.port", "465");
 			Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication("devloper.chatx@gmail.com", "dsmoedscdebetlas");// Put your email
+					return new PasswordAuthentication("your email", "App Password");// Put your email
 																									// id and
-						//abdu app psd ywljdrvrtyhlmqcr																			// password here
+																									// password here
 				}
 			});
 			// compose message
